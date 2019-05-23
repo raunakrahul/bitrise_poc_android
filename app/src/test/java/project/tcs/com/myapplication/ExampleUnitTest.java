@@ -29,4 +29,8 @@ public class ExampleUnitTest {
         assertEquals(4444, Utils.multiplyNumbers(2222 , 2));
     }
 
+    @Test
+    public void diff_big_isCorrect() throws Exception {
+        assertEquals(2220, Utils.subNumbers(2222 , 2));
+    }
 }
